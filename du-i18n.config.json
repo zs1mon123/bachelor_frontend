@@ -1,0 +1,16 @@
+{
+  "quoteKeys": ["this.$t", "t", "$t", "i18n.t"],
+  "defaultLang": "zh-CN",
+  "tempLangs": ["zh-CN", "en"],
+  "langPaths": "**src/lang/package/**",
+  "transSourcePaths": "**/src/lang/source/**",
+  "tempPaths": "**/src/lang/temp/**",
+  "tempFileName": "",
+  "multiFolders": ["src", "pages"],
+  "prefixKey": null,
+  "uncheckMissKeys": [],
+  "isSingleQuote": true,
+  "isOnlineTrans": true,
+  "baiduAppid": "",
+  "baiduSecrectKey": ""
+}

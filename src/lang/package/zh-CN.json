@@ -1,0 +1,111 @@
+{
+  "route": {
+    "dashboard": "首页",
+    "document": "项目文档"
+  },
+  "login": {
+    "username": "用户名",
+    "password": "密码",
+    "login": "登 录",
+    "captchaCode": "验证码",
+    "capsLock": "大写锁定已打开",
+    "rememberMe": "记住我",
+    "forgetPassword": "忘记密码",
+    "message": {
+      "username": {
+        "required": "请输入用户名"
+      },
+      "password": {
+        "required": "请输入密码",
+        "min": "密码不能少于6位"
+      },
+      "captchaCode": {
+        "required": "请输入验证码"
+      }
+    },
+    "otherLoginMethods": "其他登录方式"
+  },
+  "navbar": {
+    "dashboard": "首页",
+    "logout": "注销登出",
+    "document": "项目文档",
+    "gitee": "项目地址",
+    "profile": "个人中心"
+  },
+  "sizeSelect": {
+    "tooltip": "布局大小",
+    "default": "默认",
+    "large": "大型",
+    "small": "小型",
+    "message": {
+      "success": "切换布局大小成功！"
+    }
+  },
+  "langSelect": {
+    "message": {
+      "success": "切换语言成功！"
+    }
+  },
+  "settings": {
+    "project": "项目配置",
+    "theme": "主题设置",
+    "interface": "界面设置",
+    "navigation": "导航设置",
+    "themeColor": "主题颜色",
+    "tagsView": "开启 Tags-View",
+    "fixedHeader": "固定 Header",
+    "sidebarLogo": "侧边栏 Logo",
+    "watermark": "开启水印"
+  },
+  "DictSelect": "请选择",
+  "ResetPassword": "重置密码",
+  "Confirm": "确定",
+  "Sumbit": "提交",
+  "Reset": "重置",
+  "Save": "保存",
+  "Close": "关闭",
+  "Cancel": "取消",
+  "Delete": "删除",
+  "DepartmentName": "部门名称",
+  "SystemUser": {
+    "title": "用户管理",
+    "Role": "角色",
+    "SearchKeyword": "关键词",
+    "SearchPlaceholder": "用户名/昵称/手机号",
+    "SearchStatus": "状态",
+    "SearchStatusOption": {
+      "All": "全部",
+      "Enabled": "正常",
+      "Disabled": "禁用"
+    },
+    "SearchCreatedAt": "创建时间",
+    "SearchCreatedAtOption": {
+      "StartTime": "开始时间",
+      "EndTime": "结束时间"
+    },
+    "SearchBtn": "搜索",
+    "SearchResetBtn": "重置",
+    "AddUserBtn": "新增用户",
+    "DeleteUserBtn": "删除用户",
+    "ExportBtn": "导出",
+    "ImportBtn": "导入",
+    "EditUserBtn": "编辑用户",
+    "ResetPasswordBtn": "重置密码",
+    "ColumnNo": "编号",
+    "ColumnUsername": "用户名",
+    "ColumnNickname": "昵称",
+    "ColumnEmail": "邮箱",
+    "ColumnGender": "性别",
+    "ColumnDepartment": "部门",
+    "ColumnMobile": "手机号",
+    "ColumnStatus": "状态",
+    "ColumnCreatedAt": "创建时间",
+    "ColumnAction": "操作",
+    "UsernameRequired": "用户名不能为空",
+    "NicknameRequired": "用户昵称不能为空",
+    "DeptRequired": "所属部门不能为空",
+    "RoleRequired": "用户角色不能为空",
+    "EmailInvalid": "请输入正确的邮箱地址",
+    "MobileInvalid": "请输入正确的手机号码"
+  }
+}

@@ -1,0 +1,40 @@
+<!-- 字典组件示例 -->
+<script setup lang="ts">
+const stringValue = ref("1"); // 性别(值为String)
+const numberValue = ref(1); // 性别(值为Number)
+const arraryValue = ref(["1", "2"]); // 性别(值为Array)
+</script>
+
+<template>
+  <div class="app-container">
+    <el-form>
+      <el-form-item label="性别">
+        <dict v-model="stringValue" code="gender" />
+        <el-link :underline="false" type="primary" class="ml-5">
+          值为String: const value = ref("1");
+        </el-link>
+      </el-form-item>
+
+      <el-form-item label="性别">
+        <dict v-model="numberValue" code="gender" />
+        <el-link :underline="false" type="success" class="ml-5">
+          值为Number: const value = ref(1);
+        </el-link>
+      </el-form-item>
+
+      <el-form-item label="单字典">
+        <dict v-model="numberValue" type="radio" code="gender" />
+        <el-link :underline="false" type="success" class="ml-5">
+          值为Number: const value = ref(1);
+        </el-link>
+      </el-form-item>
+
+      <el-form-item label="复选框字典">
+        <dict v-model="arraryValue" type="checkbox" code="gender" />
+        <el-link :underline="false" type="success" class="ml-5">
+          值为Number: const value = ref(["1", "2"]);
+        </el-link>
+      </el-form-item>
+    </el-form>
+  </div>
+</template>

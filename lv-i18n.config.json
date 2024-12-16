@@ -1,0 +1,19 @@
+{
+  "localeTranslatePath": "",
+  "remoteTranslatePath": "",
+  "translatedPath": "src/lang/package",
+  "languages": ["en", "zh-cn"],
+  "i18n": ["t", "$t"],
+  "baiduAppid": "",
+  "baiduSecretKey": "",
+  "youdaoAppid": "",
+  "youdaoSecretKey": "",
+  "preferredLanguage": "zh-cn",
+  "preferredI18n": "$t",
+  "chineseFileName": "zh-cn",
+  "languageMap": {
+    "en": "en",
+    "zh-cn": "zh"
+  },
+  "translateDelay": 1000
+}

@@ -1,0 +1,111 @@
+{
+  "route": {
+    "dashboard": "Dashboard",
+    "document": "Document"
+  },
+  "login": {
+    "username": "Username",
+    "password": "Password",
+    "login": "Login",
+    "captchaCode": "Verify Code",
+    "capsLock": "Caps Lock is On",
+    "rememberMe": "Remember Me",
+    "forgetPassword": "Forget Password",
+    "message": {
+      "username": {
+        "required": "Please enter Username"
+      },
+      "password": {
+        "required": "Please enter Password",
+        "min": "The password can not be less than 6 digits"
+      },
+      "captchaCode": {
+        "required": "Please enter Verify Code"
+      }
+    },
+    "otherLoginMethods": "Other login methods"
+  },
+  "navbar": {
+    "dashboard": "Dashboard",
+    "logout": "Logout",
+    "document": "Document",
+    "gitee": "Gitee",
+    "profile": "User Profile"
+  },
+  "sizeSelect": {
+    "tooltip": "Layout Size",
+    "default": "Default",
+    "large": "Large",
+    "small": "Small",
+    "message": {
+      "success": "Switch Layout Size Successful!"
+    }
+  },
+  "langSelect": {
+    "message": {
+      "success": "Switch Language Successful!"
+    }
+  },
+  "settings": {
+    "project": "Project Settings",
+    "theme": "Theme",
+    "interface": "Interface",
+    "navigation": "Navigation",
+    "themeColor": "Theme Color",
+    "tagsView": "Tags View",
+    "fixedHeader": "Fixed Header",
+    "sidebarLogo": "Sidebar Logo",
+    "watermark": "Watermark"
+  },
+  "DictSelect": "Please select",
+  "ResetPassword": "Reset Password",
+  "Confirm": "Confirm",
+  "Sumbit": "Submit",
+  "Reset": "Reset",
+  "Save": "Save",
+  "Close": "Close",
+  "Cancel": "Cancel",
+  "Delete": "Delete",
+  "DepartmentName": "Department Name",
+  "SystemUser": {
+    "title": "User Management",
+    "Role": "Role",
+    "SearchKeyword": "Keyword",
+    "SearchPlaceholder": "Username/Nickname/Mobile",
+    "SearchStatus": "Status",
+    "SearchStatusOption": {
+      "All": "All",
+      "Enabled": "Enabled",
+      "Disabled": "Disabled"
+    },
+    "SearchCreatedAt": "Created At",
+    "SearchCreatedAtOption": {
+      "StartTime": "Start Time",
+      "EndTime": "End Time"
+    },
+    "SearchBtn": "Search",
+    "SearchResetBtn": "Reset",
+    "AddUserBtn": "Add User",
+    "DeleteUserBtn": "Delete User",
+    "ExportBtn": "Export",
+    "ImportBtn": "Import",
+    "EditUserBtn": "Edit User",
+    "ResetPasswordBtn": "Reset Password",
+    "ColumnNo": "No.",
+    "ColumnUsername": "Username",
+    "ColumnNickname": "Nickname",
+    "ColumnEmail": "Email",
+    "ColumnGender": "Gender",
+    "ColumnDepartment": "Department",
+    "ColumnMobile": "Mobile",
+    "ColumnStatus": "Status",
+    "ColumnCreatedAt": "Created At",
+    "ColumnAction": "Action",
+    "UsernameRequired": "Username is required",
+    "NicknameRequired": "Nickname is required",
+    "DeptRequired": "Department is required",
+    "RoleRequired": "Role is required",
+    "EmailInvalid": "Please enter a valid email address",
+    "MobileInvalid": "Please enter a valid mobile number"
+  }
+}
